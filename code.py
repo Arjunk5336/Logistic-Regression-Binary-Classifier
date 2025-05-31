@@ -4,9 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import (
-    confusion_matrix, classification_report, precision_score, 
-    recall_score, roc_auc_score, roc_curve)
+from sklearn.metrics import (confusion_matrix, classification_report, precision_score, recall_score, roc_auc_score, roc_curve)
 from scipy.special import expit 
 df = pd.read_csv(r"C:\Users\AL SharQ\Downloads\intern\data.csv") 
 
